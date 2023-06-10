@@ -19,3 +19,11 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
+    
+
+"""   
+try:
+    raise CustomException("This is a custom exception")
+except CustomException as e:
+    logging.error(e)
+    """
